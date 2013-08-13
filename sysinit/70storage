@@ -1,0 +1,4 @@
+#!/system/bin/sh
+# Creating a symbolic link to /storage/emulated/0 for legacy purposes
+
+ln -s /mnt/shell/emulated/0 /storage/emulated/0
