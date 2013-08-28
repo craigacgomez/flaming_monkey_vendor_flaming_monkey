@@ -1,0 +1,82 @@
+Project Flaming Monkey - Google Nexus 10 / manta - craigacgomez
+==========
+
+Visit http://github.com/craigacgomez for full changelogs and git access.
+
+Visit http://forum.xda-developers.com/showthread.php?t=2318891 for kernel changelog
+
+CHANGELOG (notable new features)
+----------
+2013/08/26:
+1. Updates to Vold, LockClock, CMFileManager, Calculator & Superuser from CyanogenMod
+2. Fixed Email application force close
+3. Potential fix for ADB/MTP issue
+4. Added PerformanceControl application by h0rn3t & AOKP
+5. Updated kernel (removed some more debugging, allows CPU frequency scaling, optimised some CFLAGS)
+
+2013/08/23:
+1. Updated to AOSP Android 4.3_r2.2 (JSS15Q) source
+2. Merged various updates and bug-fixes to the Email application from CodeAurora
+3. Merged various updates to the Bluetooth application from CyanogenMod
+4. Updated bluetooth AVRCP to use ARTIST metadata, and use ALBUMARTIST metadata only if ARTIST is not present
+5. Updated the Bluetooth application to remove file format transfer restriction, and to use the Download directory to save received files
+6. Added option to allow any widget to be added to the lockscreen under Settings -> Display
+7. Added enhanced Calculator application from CyanogenMod
+8. Enabled SELinux status information under Settings -> About
+9. Enabled SoundRecorder application icon in launchers
+10. Updated proprietary binaries, libraries & drivers
+
+2013/08/14:
+1. Added Volume button wake under Settings -> Display
+2. Added Volume button long-press music controls under Settings -> Sound
+3. Added Back button long-press application kill under Settings -> Developer Options
+4. Added status bar clock & date click action when expanded
+5. Added awesome wallpaper by jester2508 (fatal exception) - http://jester2508.deviantart.com/art/Nexus-10-northen-lights-352901869
+6. Updated Superuser to version 1.0.2.1
+7. Added warning message for AppOps (permission management)
+8. Reorganised the device info (Settings -> About) screen
+9. Updated device overlays
+10. Disabled headset safe volume restriction
+11. Added init.d support
+
+2013/08/08:
+1. Added Quite Hours
+2. Added Changelog under Settings -> About
+3. Added CPU Info & Memory (RAM) Info under Settings -> About
+4. Removed Android System Update
+5. Added ability to change device hostname via Developer Options
+
+2013/08/07:
+1. Added Recent Apps clear all functionality
+2. Added CyanogenMod cLock (LockClock) widget. Configure through Settings -> Display
+3. Added "Google Play Edition" boot-animation
+4. Updated Superuser to version 1.0.2.0
+
+2013/08/06:
+1. Enabled Android 4.3 AppOps (permission management) via Settings -> Security
+2. Added Navigation bar positioning (default/centre, left or right) via Settings -> Display
+
+2013/08/01:
+1. Based on AOSP Android 4.3_r2.1 (JSS15J) source
+2. Added Project Flaming Monkey Kernel (2013/07/26)
+3. Rooted with Koush's daemon-based Superuser (integrated in Settings menu)
+4. Added Bionic busybox 1.21
+5. Added USB OTG read/write support (FAT32/NTFS/ExFAT)
+6. Added Advanced reboot menu (only when screen is unlocked)
+7. Enabled Bluetooth LE (Low Energy), GATT (Generic Attribute Profile) & SMP (Low Energy Security Manager Protocol) support
+8. Added CM File Manager
+9. Added Email/Exchange updates from CyanogenMod
+10. Added Exchange security bypass hook (see instructions below)
+11. Enabled secure boot and secure adb
+12. Enabled Google Location Services
+13. Added miscellaneous build tweaks, additions & removals
+
+CREDITS
+----------
+Google
+Samsung
+CyanogenMod
+Koush
+TeamWin
+Goo.Im
+CodeAurora
