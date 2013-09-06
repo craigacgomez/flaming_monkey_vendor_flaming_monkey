@@ -7,6 +7,16 @@ Visit http://forum.xda-developers.com/showthread.php?t=2318891 for kernel change
 
 CHANGELOG (notable new features)
 ----------
+2013/09/04:
+1. Added configurable Quick Settings tiles (based on kevdliu's Quick Settings Mod) via Settings -> Display
+2. Holo-fied several gingerbread drawables/images (thanks to BlackDino) for non-holo applications
+3. Added dithered gradient background (no more banding)
+4. Merged some location fixes and tweaks
+5. Added Recents clear-all long-press action to drop VM caches (thanks to PSX)
+6. Fixed screen-off long-press volume music controls
+7. Fixed account sync size null pointer in Email
+8. Some other code tweaks
+
 2013/08/26:
 1. Updates to Vold, LockClock, CMFileManager, Calculator & Superuser from CyanogenMod
 2. Fixed Email application force close
