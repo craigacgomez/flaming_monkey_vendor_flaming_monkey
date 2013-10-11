@@ -12,6 +12,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/flaming_monkey/CHANGELOG-FLAMING_MONKEY.txt:system/etc/CHANGELOG-FLAMING_MONKEY.txt
 
+# block stock OTAs
+PRODUCT_COPY_FILES += \
+    vendor/flaming_monkey/otablock:system/bin/otablock
+
 # Goo.im properties
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.goo.developerid=craigacgomez \
