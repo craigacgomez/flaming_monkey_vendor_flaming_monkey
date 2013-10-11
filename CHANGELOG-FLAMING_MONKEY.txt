@@ -7,6 +7,23 @@ Visit http://forum.xda-developers.com/showthread.php?t=2318891 for kernel change
 
 CHANGELOG (notable new features)
 ----------
+2013/10/10:
+1. Updated to AOSP Android 4.3.1_r1 (JLS36I) source
+2. Added Active Display from ChameleonOS ([URL="http://www.youtube.com/watch?v=giI5NXTI9hs"]see it in action)[/URL]
+3. Updated LockClock, CMFileManager, Calculator & Superuser from CyanogenMod
+4. Updated PerformanceControl to 2.1.5
+5. Added auditd daemon and some miscellaneous updates and tweaks
+6. Disabled stock android OTA packages and services
+7. Use bionic from CyanogenMod
+8. Various fixes for GCC 4.8+ toolchains
+9. Built use Google GCC 4.8 2013.09 toolchain
+
+2013/09/21:
+1. Updated to AOSP Android 4.3_r3.1 (JLS36G) source
+2. Updated LockClock, CMFileManager, Calculator & Superuser from CyanogenMod
+3. Updated PerformanceControl
+4. Updated kernel (built use arm-linux-androideabi-4.7, added SIO & ROW IO schedulers)
+
 2013/09/04:
 1. Added configurable Quick Settings tiles (based on kevdliu's Quick Settings Mod) via Settings -> Display
 2. Holo-fied several gingerbread drawables/images (thanks to BlackDino) for non-holo applications
@@ -15,12 +32,12 @@ CHANGELOG (notable new features)
 5. Added Recents clear-all long-press action to drop VM caches (thanks to PSX)
 6. Fixed screen-off long-press volume music controls
 7. Fixed account sync size null pointer in Email
-8. Some other code tweaks
+8. Added some other code tweaks
 
 2013/08/26:
-1. Updates to Vold, LockClock, CMFileManager, Calculator & Superuser from CyanogenMod
+1. Updated Vold, LockClock, CMFileManager, Calculator & Superuser from CyanogenMod
 2. Fixed Email application force close
-3. Potential fix for ADB/MTP issue
+3. Fixed for ADB/MTP issue
 4. Added PerformanceControl application by h0rn3t & AOKP
 5. Updated kernel (removed some more debugging, allows CPU frequency scaling, optimised some CFLAGS)
 
@@ -89,4 +106,8 @@ CyanogenMod
 Koush
 TeamWin
 Goo.Im
+PSX
+kevdliu
+BlackDino
 CodeAurora
+ChameleonOS
